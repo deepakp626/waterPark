@@ -9,6 +9,11 @@ export default {
       colors: {
         primary: ' #2C8ECE',
         secondary: '#4A4A4A',
+        orange:"#FF9101",
+        bg:"#F0F0F0"
+      },
+      theme:{
+        // p: '#4A4A4A',
       }
      
     },

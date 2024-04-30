@@ -59,7 +59,7 @@ const TicketBookingForm = () => {
     }
     return (
         <>
-            <form onSubmit={account} className='border-2 border-black p-4 space-y-2'>
+            <form onSubmit={account} className=' p-4 space-y-2'>
                 <div className="card">
                     <label htmlFor='name'>Name</label>
                     <input type="text" name='name' placeholder='Enter Your Name' />

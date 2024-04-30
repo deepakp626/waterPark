@@ -3,11 +3,55 @@
 @tailwind utilities;
 
 @layer components {
-    .card {
-      box-shadow: 0rem  0rem 7px black;
-      display: flex;
-      flex-direction: column;
-      border-radius: 1rem;
-        padding: 1rem;
-    }
+  .card {
+    box-shadow: 0rem 0rem 7px black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding: 1rem;
   }
+  .divtag{
+    max-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0px auto;
+  }
+  .spantag{
+    margin-right: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    color: #2C8ECE;
+    padding: 0.5rem ;
+    border: 1px solid #2C8ECE;;
+    border-radius: 0.75rem;
+  }
+
+  .labeltag {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: start;
+  }
+
+  .inputField {
+    margin-left: 3rem;
+    padding: 6px;
+    border-bottom: 2px solid black;
+    outline: none;
+    display: inline-block;
+  }
+}
+
+.carousel-container.react-multiple-carousel__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-container.react-multiple-carousel__arrow--left {
+  left: -50px;
+}
+
+.carousel-container.react-multiple-carousel__arrow--right {
+  right: -50px;
+}

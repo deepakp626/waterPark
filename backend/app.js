@@ -3,8 +3,8 @@ import cors from 'cors';
 import connectDB from './DBConnection/DB.js';
 import web from './routes/web.js';
 const app = express()
-const PORT = 3000
-const DATABASE = "mongodb://localhost:27017"
+const PORT = process.env.PORT
+const DATABASE = process.env.DATABASE_URL
 
 
 //Middlewares
