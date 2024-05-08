@@ -3,8 +3,9 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <>
-            <div className='bg-[url("src/images/heroPhone.png")]  bg-no-repeat max-w-screen-md h-[323px] bg-cover
-            border-2   text-white opacity-2 p-4 relative'>
+            <div className='bg-[url("src/images/heroPhone.png")]  bg-no-repeat min-w-full  h-[323px] bg-cover
+            border-2   text-white opacity-2 p-4 relative
+            sm:min-h-[800px]'>
 
                 <p className='mt-20'>TOOFANI - The Largest Water Park in Bihar </p>
                 <h3 className='font-bold text-[25px]'>Step into a bihar of

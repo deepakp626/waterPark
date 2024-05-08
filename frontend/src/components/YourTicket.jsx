@@ -31,8 +31,8 @@ const YourTicket = () => {
         <>
             <div className='m-2 text-center mt-10'>
 
-                <h4 className='text-primary font-medium text-xl'>Choose Your Ticket</h4>
-                <p className='text-secondary'>Lorem Ipsum is simply dummy text of the printing
+                <h4 className='text-primary font-medium text-xl sm:text-3xl'>Choose Your Ticket</h4>
+                <p className='text-secondary sm:text-[1.2rem] space-y-2'>Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry. Lorem Ipsum has been the</p>
             </div>
             <div className='flex flex-wrap gap-4 m-4 justify-center'>

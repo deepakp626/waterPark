@@ -59,7 +59,7 @@ const TicketBookingForm = () => {
     }
     return (
         <>
-            <form onSubmit={account} className=' p-4 space-y-2'>
+            <form onSubmit={account} className=' p-4 space-y-2  border-2 border-red-400  mx-auto grid gap-4 place-content-center '>
                 <div className="card">
                     <label htmlFor='name'>Name</label>
                     <input type="text" name='name' placeholder='Enter Your Name' />
@@ -98,6 +98,7 @@ const TicketBookingForm = () => {
                     <label htmlFor='price'>Price</label>
                     <input type="number" name='price' value={500} readOnly />
                 </div>
+                
                 <button  className='block mx-auto px-4 py-2  rounded text-white bg-gradient-to-r from-[#2C8ECE] to-[#09A4E4]'
                 type='submit'>Book Ticket</button>
 

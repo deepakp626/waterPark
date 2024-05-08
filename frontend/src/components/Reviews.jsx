@@ -9,13 +9,13 @@ const Reviews = () => {
       };
     return (
         <>
-            <section className='mt-4 text-center m-4'>
+            <section className='mt-4 text-center m-4 sm:mt-6 space-y-4'>
                 <h2 className='text-primary  font-medium text-xl'>What People Says</h2>
                 <h1 className='font-bold text-2xl'>Happy Explore Reviews</h1>
             </section>
 
         
-            <section className='flex justify-center mb-4'>
+            <section className='flex justify-center mb-4 sm:mb-6'>
 
                 <div className="relative border-red-400 border-2  max-h-[140px]   max-w-[270px] flex gap-3 items-start px-2.5 pt-2 pb-6 rounded-sm bg-neutral-50 text-slate-900">
                     <img

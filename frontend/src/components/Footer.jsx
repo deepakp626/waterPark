@@ -41,7 +41,7 @@ const Footer = () => {
                     <FaLinkedin />
                     <FaTwitter /> <FaYoutube />
                 </div>
-                <div className="flex gap-4 justify-center">
+                <div     className="flex gap-4 justify-center">
                     {
                         footerLink.map((item, index) => (
                             <>

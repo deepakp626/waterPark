@@ -3,9 +3,10 @@ import cors from 'cors';
 import connectDB from './DBConnection/DB.js';
 import web from './routes/web.js';
 const app = express()
-const PORT = process.env.PORT
-const DATABASE = process.env.DATABASE_URL
+const PORT = 4000;
 
+import dotenv from 'dotenv'
+dotenv.config({ path: `/config.env` });
 
 //Middlewares
 app.use(express.json());
@@ -23,5 +24,5 @@ app.get("/",(req,res)=>{
 app.use("/api",web)
 
 app.listen(PORT,()=>{
-    console.log("Server is listning at Port http://localhost:3000");
+    console.log(`Server is listning at Port http://localhost:${PORT}`);
 })

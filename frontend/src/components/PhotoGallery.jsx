@@ -26,13 +26,13 @@ const PhotoGallery = () => {
     }
     return (
         <>
-            <div className='text-center space-y-4 mt-6'> 
+            <div className='text-center space-y-4 sm:space-y-6 mt-6'> 
 
-                <h3 className='text-primary font-medium text-[1.2rem]'>Photo Gallery of</h3>
-                <h2 className='font-bold text-2xl'>Toofani water parks &
+                <h3 className='text-primary font-medium text-[1.2rem] sm:text-2xl'>Photo Gallery of</h3>
+                <h2 className='font-bold text-2xl sm:text-4xl'>Toofani water parks &
                     Resturant</h2>
                 <div className='flex justify-center gap-4 flex-col'>
-                    <div>
+                    <div className='space-x-2'>
 
                         <button className='text-black text-xs   px-4 py-2 marker: hover:bg-orange border-orange border-2   rounded'>All</button>
 
