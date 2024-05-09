@@ -29,7 +29,7 @@ const Nav = () => {
   return (
     <>
       <nav className="flex justify-between items-center p-2">
-        <img src="src/logo/logoo.png" />
+        <img src="/logoo.png" />
         <div className="hidden sm:flex text-sm gap-2 text-secondary sm:none">
 
           {
@@ -42,7 +42,7 @@ const Nav = () => {
         </div>
 
 
-        <button className='hidden sm:block text-white bg-[#2C8ECE] px-2 py-1 '>Book Ticket</button>
+        <button className='hidden sm:block text-white bg-[#2C8ECE] px-2 py-1 rounded-lg'>Book Ticket</button>
 
         <FaBars className="sm:hidden" />
       </nav>

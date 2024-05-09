@@ -25,25 +25,25 @@ const Facilities = () => {
                 <div className='grid grid-cols-2 gap-6 justify-center'>
                     <div className='flex justify-center flex-col items-center gap-2 rounded shadow-xl px-4 py-4 min-w-[138px]'>
                         <div>
-                            <img src="src/images/facilitties/1.png" alt="1" />
+                            <img src="/images/facilitties/1.png" alt="1" />
                         </div>
                         <p className='font-medium text-[0.9rem]'>MEALS</p>
                     </div>
                     <div className='flex justify-center flex-col items-center gap-2 rounded shadow-xl px-4 py-4 min-w-[138px]'>
                         <div>
-                            <img src="src/images/facilitties/2.png" alt="2" />
+                            <img className='blue' src="/images/facilitties/2.png" alt="2" />
                         </div>
                         <p className='font-medium text-[0.9rem]'>MEALS</p>
                     </div>
                     <div className='flex justify-center flex-col items-center gap-2 rounded shadow-xl px-4 py-4 min-w-[138px]'>
                         <div>
-                            <img src="src/images/facilitties/3.png" alt="3" />
+                            <img src="/images/facilitties/3.png" alt="3" />
                         </div>
                         <p className='font-medium text-[0.9rem]'>MEALS</p>
                     </div>
                     <div className='flex justify-center flex-col items-center gap-2 rounded shadow-xl px-4 py-4 min-w-[138px]'>
                         <div>
-                            <img src="src/images/facilitties/4.png" alt="4" />
+                            <img src="/images/facilitties/4.png" alt="4" />
                         </div>
                         <p className='font-medium text-[0.9rem]'>MEALS</p>
                     </div>

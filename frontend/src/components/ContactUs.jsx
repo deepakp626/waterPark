@@ -1,6 +1,7 @@
 import "/src/index.css"
 
 const ContactUs = () => {
+    
     return (
         <>
             <section className=' space-y-8 md:grid grid-cols-2'>
@@ -31,17 +32,17 @@ const ContactUs = () => {
                 </form>
 
 
-                <section className="m-12 sm:m-0">
+                <section className="m-12 sm:m-8">
                     <div className="grid grid-cols-2 md:grid-cols-1  gap-y-6 justify-center">
                         <div>
                             <h3 className="font-medium text-xs sm:text-lg">Call Us</h3>
                             <p className="font-normal text-[9px] sm:text-base">Mon-Fri from 8am to 17pm <br />
-                                +91 000-000-000</p>
+                                01494 471430</p>
                         </div>
                         <div>
                             <h3 className="font-medium text-xs sm:text-lg">Chat to us</h3>
                             <p className="font-normal text-[9px] sm:text-base">We are here To Help. <br />
-                                demo@gamil.com</p>
+                                demes9@gamil.com</p>
                         </div>
                         <div>
                             <h3 className="font-medium text-xs sm:text-lg">Visit Us</h3>
@@ -51,8 +52,10 @@ const ContactUs = () => {
                         </div>
                     </div>
 
-                    <div>
-
+                    <div className="my-4 self-start">
+                        <iframe className="max-w-[28rem] h-56  sm:min-w-[25rem] md:min-w-[28rem]"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3578.197437658583!2d85.1911359!3d26.2552548!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed21001691201d%3A0x2ce42a627b2d51f3!2sTOOFANI%20WATER%20PARK%20(MOTIPUR%20MUZAFFARPUR%20)!5e0!3m2!1sen!2sin!4v1715276899951!5m2!1sen!2sin" 
+                        style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </section>
 

@@ -3,25 +3,25 @@ import React from 'react'
 const YourTicket = () => {
     const ticket = [
         {
-            imgPath: "src/images/TicketImage/1.png",
+            imgPath: "/images/TicketImage/1.png",
             name: "Regular Ticket.",
             desc: "Ticket for age 13+ start from RS.799/-",
             bookURL: "",
         },
         {
-            imgPath: "src/images/TicketImage/2.png",
+            imgPath: "/images/TicketImage/2.png",
             name: "Student Ticket.",
             desc: "Get 10% Discount just give your student card",
             bookURL: "",
         },
         {
-            imgPath: "src/images/TicketImage/3.png",
+            imgPath: "/images/TicketImage/3.png",
             name: "Group Ticket",
             desc: "Group Ticket for all access Rs.100/- pax",
             bookURL: "",
         },
         {
-            imgPath: "src/images/TicketImage/4.png",
+            imgPath: "/images/TicketImage/4.png",
             name: "Stag Ticket",
             desc: "Group Ticket for all access Rs.100/- pax",
             bookURL: "",

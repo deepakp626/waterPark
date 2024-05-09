@@ -40,13 +40,7 @@ const PhotoGallery = () => {
 
                         <button className='text-black text-xs   px-4 py-2 marker: hover:bg-orange border-orange border-2   rounded'>Resturant</button>
                     </div>
-                    {/* <div className='grid'>
-                    <img src="/src/images/PhotoGallery/1.svg" alt="1" />
-                    <img src="/src/images/PhotoGallery/2.svg" alt="2" />
-                    <img src="/src/images/PhotoGallery/3.svg" alt="3" />
-                    <img src="/src/images/PhotoGallery/4.svg" alt="4" />
-                    <img src="/src/images/PhotoGallery/5.svg" alt="5" />
-                </div> */}
+                   
 
                     <Carousel
                         showDots={true}
@@ -55,13 +49,13 @@ const PhotoGallery = () => {
                         // keyBoardControl={"true"}
                         centerMode={true}
                     >
-                        <img className='max-w-[135px] max-h-[108px]' src="/src/images/PhotoGallery/1.svg" alt="1" />
+                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/1.svg" alt="1" />
 
-                        <img className='max-w-[135px] max-h-[108px]' src="/src/images/PhotoGallery/2.svg" alt="2" />
-                        <img className='max-w-[135px] max-h-[108px]' src="/src/images/PhotoGallery/3.svg" alt="3" />
+                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/2.svg" alt="2" />
+                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/3.svg" alt="3" />
 
-                        <img className='max-w-[135px] max-h-[108px]' src="/src/images/PhotoGallery/4.svg" alt="4" />
-                        <img className='max-w-[135px] max-h-[108px]' src="/src/images/PhotoGallery/5.svg" alt="5" />
+                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/4.svg" alt="4" />
+                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/5.svg" alt="5" />
                     </Carousel>;
                 </div>
             </div>

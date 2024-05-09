@@ -17,11 +17,11 @@ const Reviews = () => {
         
             <section className='flex justify-center mb-4 sm:mb-6'>
 
-                <div className="relative border-red-400 border-2  max-h-[140px]   max-w-[270px] flex gap-3 items-start px-2.5 pt-2 pb-6 rounded-sm bg-neutral-50 text-slate-900">
+                <div className="relative  max-h-[140px]   max-w-[270px] flex gap-3 items-start px-2.5 pt-2 pb-6 rounded-sm bg-neutral-50 text-slate-900">
                     <img
                         className="shrink-0 w-24 aspect-[0.91] "
                         loading="lazy"
-                        src='/src/images/reviews/Image.png'
+                        src='/images/reviews/Image.png'
                     />
                     <div className="flex flex-col">
                         <ImQuotesLeft loading="lazy" className="absolute self-end w-3 aspect-[1.33] text-orange" />
