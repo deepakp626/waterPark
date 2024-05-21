@@ -40,7 +40,6 @@ const QNA = () => {
 
                 {
                     qna.map((item, index) => (
-                        <>
                             <div key={index} className='relative space-y-6 bg-white p-4 gap-4  border-2 max-w-60 '>
                                 <div className='space-y-4'>
                                     <h3 className='font-semibold text-sm space-y-2'>{item.ques}
@@ -52,7 +51,6 @@ const QNA = () => {
                                     <img className='absolute right-10 bottom-0' src={item.src} alt="image" />
                                 </div>
                             </div>
-                        </>
                     ))
                 }
 

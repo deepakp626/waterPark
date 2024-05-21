@@ -14,7 +14,14 @@ export default {
       },
       theme:{
         // p: '#4A4A4A',
-      }
+      },
+      backgroundImage: {
+        'hero-pattern': "url('/bg/footerBG.svg')",
+        'footer-texture': "url('/public/bg/footerBG.svg')",
+      },
+      fontFamily: {
+        display: ["Poppins", "cursive"],
+      },
      
     },
   },

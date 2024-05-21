@@ -15,7 +15,7 @@ const Facilities = () => {
     return (
         <>
             <div className='text-center p-4 space-y-6   place-content-center items-center gap-6 '>
-                <div className='lg:text-left space-y-4  w-auto'>
+                <div className='lg:text-left space-y-4  w-auto  bg-[url("/bg/facilityBG.svg")] bg-no-repeat bg-center '>
 
                     <h3 className='font-medium text-[1.2rem] w-auto text-primary sm:text-3xl'>Facilities</h3>
                     <h2 className='font-bold text-2xl w-auto'>Simple do’s for a
@@ -25,7 +25,7 @@ const Facilities = () => {
                             {
                                 facilityList.map((item,index)=>(
                                     <>
-                                    <li> <span className='text-black'>{index +1} -</span> { item}</li>
+                                    <li key={index}> <span className='text-black'>{index +1} -</span> { item}</li>
                                     </>
                                 ))
                             }

@@ -26,7 +26,7 @@ const PhotoGallery = () => {
     }
     return (
         <>
-            <div className='text-center space-y-4 sm:space-y-6 mt-6'> 
+            <div className='text-center space-y-4 sm:space-y-6 mt-6'>
 
                 <h3 className='text-primary font-medium text-[1.2rem] sm:text-2xl'>Photo Gallery of</h3>
                 <h2 className='font-bold text-2xl sm:text-4xl'>Toofani water parks &
@@ -40,22 +40,22 @@ const PhotoGallery = () => {
 
                         <button className='text-black text-xs   px-4 py-2 marker: hover:bg-orange border-orange border-2   rounded'>Resturant</button>
                     </div>
-                   
 
-                    <Carousel
+
+                    <Carousel 
                         showDots={true}
                         responsive={responsive}
-                        className="carousel-container"
+                        className="carousel-container bottom-4"
                         // keyBoardControl={"true"}
                         centerMode={true}
                     >
-                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/1.svg" alt="1" />
+                            <img className='m-0 max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/1.svg" alt="1" />
 
-                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/2.svg" alt="2" />
-                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/3.svg" alt="3" />
+                            <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/2.svg" alt="2" />
+                            <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/3.svg" alt="3" />
 
-                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/4.svg" alt="4" />
-                        <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/5.svg" alt="5" />
+                            <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/4.svg" alt="4" />
+                            <img className='max-w-[135px] max-h-[108px]' src="/images/PhotoGallery/5.svg" alt="5" />
                     </Carousel>;
                 </div>
             </div>

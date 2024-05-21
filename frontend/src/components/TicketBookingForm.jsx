@@ -59,7 +59,7 @@ const TicketBookingForm = () => {
     }
     return (
         <>
-            <form onSubmit={account} className=' p-4 space-y-2  mx-auto grid gap-4 place-content-center '>
+            <form id='bookticket' onSubmit={account} className=' p-4 space-y-2  mx-auto grid gap-4 place-content-center '>
                 <div className="card">
                     <label htmlFor='name'>Name</label>
                     <input type="text" name='name' placeholder='Enter Your Name' />
@@ -76,22 +76,16 @@ const TicketBookingForm = () => {
 
                 <div className="card">
                     <label htmlFor="adult">ADULTS</label>
-                    <select name="adult" id="cars" placeholder="select no">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
+                    <input type="number" min="1" max="50"
+                    placeholder='Enter Age'
+                    />
 
                 </div>
                 <div className="card">
                     <label htmlFor="children">Children</label>
-                    <select name="children" id="cars" placeholder="select no">
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
+                    <input type="number" min="1" max="20"
+                    placeholder='Enter Age'
+                    />
 
                 </div>
                 <div className="card">
