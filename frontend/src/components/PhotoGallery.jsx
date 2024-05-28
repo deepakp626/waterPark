@@ -43,9 +43,9 @@ const PhotoGallery = () => {
 
 
                     <Carousel 
-                        showDots={true}
+                        showDots={false}
                         responsive={responsive}
-                        className="carousel-container bottom-4"
+                        className="carousel-container bottom-4 my-4"
                         // keyBoardControl={"true"}
                         centerMode={true}
                     >

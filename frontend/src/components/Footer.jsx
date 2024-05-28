@@ -49,9 +49,7 @@ const Footer = () => {
                     <div className="flex flex-wrap gap-4 justify-center">
                         {
                             footerLink.map((item, index) => (
-                                <>
                                     <a key={index} href={item.link}>{item.name}</a>
-                                </>
                             ))
                         }
                     </div>

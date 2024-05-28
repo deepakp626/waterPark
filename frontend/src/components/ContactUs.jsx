@@ -42,7 +42,7 @@ const ContactUs = () => {
                         <div>
                             <h3 className="font-medium text-xs sm:text-lg">Chat to us</h3>
                             <p className="font-normal text-[9px] sm:text-base">We are here To Help. </p>
-                            <a className="text-primary" href="mailto:  toofaniwaterpark@gmail.com">   toofaniwaterpark@gmail.com</a>
+                            <a className="text-primary text-sm sm:text-base" href="mailto:  toofaniwaterpark@gmail.com">   toofaniwaterpark@gmail.com</a>
                         </div>
                         <div>
                             <h3 className="font-medium text-xs sm:text-lg">Visit Us</h3>
